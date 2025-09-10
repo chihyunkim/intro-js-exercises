@@ -1,4 +1,4 @@
-/* globals _ */
+``/* globals _ */
 /* eslint no-unused-vars:off */
 
 /* =====================
