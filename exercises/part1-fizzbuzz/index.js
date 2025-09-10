@@ -25,8 +25,23 @@ Start code
 
 ===================== */
 
+for (let i = 1; i <= 100; i++) {
 
+    if (checkDivisibility(i, 3) && checkDivisibility(i, 5)) {
+        console.log("FizzBuzz");
+    } else if (checkDivisibility(i, 3)) {
+        console.log("Fizz");
+    } else if (checkDivisibility(i, 5)) {
+        console.log("Buzz");
+    } else {
+        console.log(i);
+    }
 
+}
+
+function checkDivisibility(num, divisor) {
+    return num % divisor === 0;    
+}
 
 /* =====================
 
